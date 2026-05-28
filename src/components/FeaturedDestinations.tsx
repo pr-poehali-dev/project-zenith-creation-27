@@ -7,42 +7,42 @@ const destinations = [
     name: "Санторини",
     country: "Греция",
     image: "/santorini-sunset.png",
-    description: "Белоснежные домики и потрясающие закаты над морем",
+    description: "Фестиваль под открытым небом с закатами над Эгейским морем",
     price: "от 249 900 ₽",
   },
   {
     name: "Бали",
     country: "Индонезия",
     image: "/bali-indonesia-rice-terraces-tropical-paradise.jpg",
-    description: "Тропический рай с древними храмами и пляжами",
+    description: "Культурные события среди рисовых террас и древних храмов",
     price: "от 189 900 ₽",
   },
   {
     name: "Киото",
     country: "Япония",
     image: "/kyoto-japan-traditional-temples-cherry-blossoms.jpg",
-    description: "Древние храмы и традиционная японская культура",
+    description: "Сезонные события в сакурный период — уникальный опыт",
     price: "от 279 900 ₽",
   },
   {
     name: "Мальдивы",
     country: "Индийский океан",
     image: "/maldives-overwater-bungalows-crystal-clear-water.jpg",
-    description: "Виллы над водой и нетронутые коралловые рифы",
+    description: "Эксклюзивные события на виллах над кристальным океаном",
     price: "от 349 900 ₽",
   },
   {
     name: "Исландия",
     country: "Северная Европа",
     image: "/iceland-northern-lights-waterfalls-dramatic-landsc.jpg",
-    description: "Северное сияние и величественные вулканические ландшафты",
+    description: "Экспедиции к северному сиянию и вулканическим ландшафтам",
     price: "от 299 900 ₽",
   },
   {
     name: "Дубай",
     country: "ОАЭ",
     image: "/dubai-modern-skyline-luxury-desert.jpg",
-    description: "Современная роскошь и приключения в пустыне",
+    description: "Премиальные события в городе будущего и пустынные сафари",
     price: "от 229 900 ₽",
   },
 ]
@@ -54,10 +54,10 @@ export function FeaturedDestinations() {
         {/* Section Header */}
         <div className="max-w-3xl mb-20">
           <h2 className="text-5xl md:text-6xl font-light tracking-tight mb-6 text-balance">
-            Популярные <span className="font-semibold">направления</span>
+            Горячие <span className="font-semibold">направления</span>
           </h2>
           <p className="text-lg text-muted-foreground text-balance leading-relaxed">
-            Лучшие направления с незабываемыми впечатлениями и захватывающей красотой
+            Уникальные точки на карте мира, куда мы организуем особые туристические события
           </p>
         </div>
 

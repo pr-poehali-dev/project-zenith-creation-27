@@ -24,7 +24,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-semibold tracking-tight">Horizon Voyages</h1>
+            <h1 className="text-2xl font-semibold tracking-tight">Туристический Горизонт событий</h1>
           </div>
 
           {/* Desktop Navigation */}
@@ -55,7 +55,7 @@ export function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6">
-              Забронировать
+              Подать заявку
             </Button>
           </div>
 
@@ -83,7 +83,7 @@ export function Navbar() {
               Контакты
             </a>
             <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 rounded-full">
-              Забронировать
+              Подать заявку
             </Button>
           </div>
         </div>

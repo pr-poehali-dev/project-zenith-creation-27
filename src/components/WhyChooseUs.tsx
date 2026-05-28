@@ -3,23 +3,23 @@ import { Globe, Shield, Headphones, Award } from "lucide-react"
 const features = [
   {
     icon: Globe,
-    title: "Глобальная сеть",
-    description: "Доступ к 150+ направлениям по всему миру с местными экспертами и аутентичным опытом",
+    title: "Авторские маршруты",
+    description: "Каждое событие разработано нашей командой — уникальный опыт, которого нет в стандартных турах",
   },
   {
     icon: Shield,
-    title: "Безопасное бронирование",
-    description: "Защищенные платежи и полная страховка путешествий для вашего спокойствия",
+    title: "Надёжная организация",
+    description: "Полное сопровождение: визы, страховки, трансферы и размещение — всё включено",
   },
   {
     icon: Headphones,
     title: "Поддержка 24/7",
-    description: "Круглосуточная служба поддержки до, во время и после вашей поездки",
+    description: "Наш менеджер всегда на связи — до, во время и после события",
   },
   {
     icon: Award,
-    title: "Гарантия лучшей цены",
-    description: "Конкурентные цены с гарантией лучшей цены и гибкими вариантами оплаты",
+    title: "Опыт с 2015 года",
+    description: "Более 10 лет в организации туристических событий — тысячи довольных участников",
   },
 ]
 
@@ -30,10 +30,10 @@ export function WhyChooseUs() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-5xl md:text-6xl font-light tracking-tight mb-6 text-balance">
-            Почему выбирают <span className="font-semibold">Horizon Voyages</span>
+            Почему выбирают <span className="font-semibold">Горизонт событий</span>
           </h2>
           <p className="text-lg text-muted-foreground text-balance leading-relaxed">
-            Мы превращаем ваши мечты о путешествиях в реальность с исключительным сервисом и незабываемыми впечатлениями
+            Мы превращаем путешествия в настоящие события — яркие, осмысленные и незабываемые
           </p>
         </div>
 

@@ -4,7 +4,7 @@ import { Calendar, Users, Star } from "lucide-react"
 
 const packages = [
   {
-    title: "Гранд-тур по Европе",
+    title: "Европейский фестивальный тур",
     duration: "14 дней",
     groupSize: "12-16 человек",
     rating: "4.9",
@@ -14,7 +14,7 @@ const packages = [
     price: "429 900 ₽",
   },
   {
-    title: "Азиатское приключение",
+    title: "Азиатский культурный маршрут",
     duration: "10 дней",
     groupSize: "8-12 человек",
     rating: "4.8",
@@ -24,7 +24,7 @@ const packages = [
     price: "349 900 ₽",
   },
   {
-    title: "Сафари-экспедиция",
+    title: "Африканская сафари-экспедиция",
     duration: "7 дней",
     groupSize: "6-10 человек",
     rating: "5.0",
@@ -42,10 +42,10 @@ export function PopularPackages() {
         {/* Section Header */}
         <div className="max-w-3xl mb-20">
           <h2 className="text-5xl md:text-6xl font-light tracking-tight mb-6 text-balance">
-            Популярные <span className="font-semibold">туры</span>
+            Флагманские <span className="font-semibold">события</span>
           </h2>
           <p className="text-lg text-muted-foreground text-balance leading-relaxed">
-            Тщательно подобранные туры, объединяющие лучшие направления и впечатления
+            Авторские туристические события, которые мы тщательно продумываем до последней детали
           </p>
         </div>
 
@@ -107,7 +107,7 @@ export function PopularPackages() {
                     <div className="text-2xl font-semibold text-primary">{pkg.price}</div>
                   </div>
                   <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full">
-                    Забронировать
+                    Участвовать
                   </Button>
                 </div>
               </div>
